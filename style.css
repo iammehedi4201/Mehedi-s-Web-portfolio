@@ -1,0 +1,26 @@
+body
+{
+    font-family:'Ubuntu', sans-serif;
+    margin:0px;
+    height: 100vh;
+ 
+}
+
+/* Welcome-Section css start from here */
+.welcome-section
+{
+    display: grid;
+    grid-template-columns: repeat(2,42%);
+    grid-template-rows:minmax(150px,auto);
+    grid-gap: 30px;
+    justify-content:center;
+    align-content: center;
+}
+.half-width 
+{
+    
+}
+.half-width img
+{
+    width: 100%;
+}
